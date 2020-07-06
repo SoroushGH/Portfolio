@@ -1,0 +1,84 @@
+<<<<<<< HEAD
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Weather Forcast</title>
+</head>
+<style>
+    body {
+        background: #008CA5;
+        letter-spacing: 0.2em;
+        font-size: 0.8em;
+    }
+
+    .container {
+        max-width: 600px;
+    }
+
+    .icon {
+        position: relative;
+        top: -50px;
+
+        border-radius: 50%;
+        width: 100px;
+        margin: 0 auto;
+    }
+</style>
+
+<body>
+
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-10  my-5 mx-auto">
+
+                    <h1 class="text-white text-center my-4">Wheather App</h1>
+
+                    <form class="change-location my-4 text-center text-white ">
+                        <label for="city">Enter a location for weather information</label>
+                        <input type="text" name="city" class="form-control p-4">
+                    </form>
+
+                    <div class="card shadow-lg rounded d-none" style="color: #008CA5 !important;">
+
+                        <img src="https://via.placeholder.com/400x300" class="time card-img-top img-fluid">
+
+                        <div class="icon bg-light max-auto text-center">
+                            <img src="">
+                        </div>
+
+                        <div class=" text-uppercase text-center details">
+                            <h5 class="my-3">City name</h5>
+                            <div class="my-3">Weather condition</div>
+
+                            <div class="display-4 my-4">
+                                <span>temp</span>
+                                <span>&deg;C</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <p class="text-justify text-white ">
+                    Note: this application is base on free version of AccuWeather API and handle only 50 request per day.
+                    If you cannot retrive information, please try next day.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="../script/weather.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8fdd5c3b2e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Quiz</title>
+</head>
+
+
+<body style="background-color: black;">
+    <div class="container-fluid">
+
+        <!-- Wolf Banner -->
+        <div class="row col-lg-12" style="margin: 0;padding: 0; z-index: -1;">
+            <img class="img-fluid quiz-logo" src="../image/game_of_throns.jpg">
+        </div><!-- End Wolf Banner -->
+
+
+        <!--quiz section-->
+        <div class="container py-4 quiz-question-box">
+
+            <!-- Score -->
+            <div class="row result d-none text-center show" style="border-bottom: 1px solid grey;">
+                <div class="col-lg-12 lead">
+                    <p>YOU GOT <span class="text-primary display-4 p-3">0%</span> SCORE</p>
+                    <p class="red"><span></span></p>
+                </div>
+            </div><!-- End Score -->
+
+            <!-- Questions -->
+            <div class="row">
+
+                <div class="col-lg-12 text-center">
+                    <h2 class="display-3 my-4">Game of Thrones Quiz</h2>
+                    <h2 class="my-5 text-white">Try your chance John Snow...</h2>
+                </div>
+
+                <div class="col-lg-12">
+
+                    <form class="quiez-form text-light">
+                        <!--question 1-->
+                        <div class="my-5">
+                            <div class="lead font-weight-normal">1. Who was responsible for the creation of the Night
+                                King?
+                            </div>
+                            <div class="form-check my-2 text-white-50">
+                                <input type="radio" name="q1" value="A">
+                                <lable class="form-check-lable">The First Men</lable>
+                            </div>
+                            <div class="form-check my-2 text-white-50">
+                                <input type="radio" name="q1" value="B">
+                                <lable class="form-check-lable">The Drowned God</lable>
+                            </div>
+                            <div class="form-check my-2 text-white-50">
+                                <input type="radio" name="q1" value="C">
+                                <lable class="form-check-lable">The Children of the Forest</lable>
+                            </div>
+                        </div>
+                        <!--End question 1-->
+
+                        <!--question 2-->
+                        <div class="my-5">
+                            <div class="lead font-weight-normal">2. Who was Ned Stark’s predecessor as Robert
+                                Baratheon’s
+                                Hand?
+                            </div>
+                            <div class="form-check my-2 text-white-50">
+                                <input type="radio" name="q2" value="A">
+                                <lable class="form-check-lable">Ser Jorah Mormont</lable>
+                            </div>
+                            <div class="form-check my-2 text-white-50">
+                                <input type="radio" name="q2" value="B">
+                                <lable class="form-check-lable">Jon Arryn</lable>
+                            </div>
+                            <div class="form-check my-2 text-white-50">
+                                <input type="radio" name="q2" value="C">
+                                <lable class="form-check-lable">Tywin Lannister</lable>
+                            </div>
+                        </div>
+                        <!--End question 2-->
+
+                        <!--question 3-->
+                        <div class="my-5">
+                            <div class="lead font-weight-normal">3. Whose last words were: 'Give me something for the
+                                pain,
+                                and
+                                let me die'?</div>
+                            <div class="form-check my-2 text-white-50">
+                                <input type="radio" name="q3" value="A">
+                                <lable class="form-check-lable">Robert Baratheon</lable>
+                            </div>
+                            <div class="form-check my-2 text-white-50">
+                                <input type="radio" name="q3" value="B">
+                                <lable class="form-check-lable">Walder Frey</lable>
+                            </div>
+                            <div class="form-check my-2 text-white-50">
+                                <input type="radio" name="q3" value="C">
+                                <lable class="form-check-lable">Stannis Baratheon</lable>
+                            </div>
+                        </div>
+                        <!--End question 3-->
+
+                        <!--question 4-->
+                        <div class="my-5">
+                            <div class="lead font-weight-normal">4. What were the first words King Robert said to Ned
+                                Stark
+                                in
+                                episode one of season one?</div>
+                            <div class="form-check my-2 text-white-50">
+                                <input type="radio" name="q4" value="A">
+                                <lable class="form-check-lable">'You’ve got fat.'</lable>
+                            </div>
+                            <div class="form-check my-2 text-white-50">
+                                <input type="radio" name="q4" value="B">
+                                <lable class="form-check-lable">'You’ve not changed.'</lable>
+                            </div>
+                            <div class="form-check my-2 text-white-50">
+                                <input type="radio" name="q4" value="C">
+                                <lable class="form-check-lable">'Your hair looks terrible.'</lable>
+                            </div>
+                        </div>
+                        <!--End question 4-->
+
+                        <div class="text-center">
+                            <input type="submit" class="btn btn-info" style="width:200px ;">
+                        </div>
+                    </form>
+
+                </div>
+
+            </div><!-- End Questions -->
+
+        </div>
+        <!--End quiz section-->
+
+    </div>
+
+
+    <script src="../script/quiez.js"></script>
+
+</body>
